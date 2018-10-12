@@ -1,0 +1,29 @@
+package inputoutput;
+
+import java.util.Scanner;
+
+public class Uppgift2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scanner = new Scanner(System.in);
+		while (true){System.out.print("Enter a firstnumber: ");
+		int number1 = scanner.nextInt();
+			System.out.print("Enter a secondnumber: ");
+		int number2 = scanner.nextInt();
+			System.out.println("" + number1 + " + " + number2 + " = " + number1 + number2);
+			System.out.println("" + number1 + " - " + number2 + " = " + (number1 - number2));
+			System.out.println("" + number1 + " x " + number2 + " = " + number1 * number2);
+			System.out.println("" + number1 + " / " + number2 + " = " + number1 / number2);
+			System.out.println("" + number1 + " mod " + number2 + " = " + number1 % number2);
+				break;
+			
+		}
+		
+		
+		
+		
+	}
+
+}
