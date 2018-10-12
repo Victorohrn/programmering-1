@@ -6,11 +6,9 @@ public class Uppgift4 {
 		// TODO Auto-generated method stub
 
 		float f = 0.5671f;
-		f =  Math.round(f * 100) / 100f;
+		f = Math.round(f * 100) / 100f;
 		System.out.println("Result: " + f);
-		
-		
-		
+
 	}
 
 }

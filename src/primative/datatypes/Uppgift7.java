@@ -7,12 +7,7 @@ public class Uppgift7 {
 
 		int i = Math.abs(-7);
 		System.out.println("Result: " + i);
-		
-		
-		
-		
-		
-		
+
 	}
 
 }

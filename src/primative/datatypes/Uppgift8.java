@@ -6,12 +6,8 @@ public class Uppgift8 {
 		// TODO Auto-generated method stub
 
 		float res = Math.abs(-0.45f);
-				System.out.println("Result: " + res);
-		
-		
-		
-		
-		
+		System.out.println("Result: " + res);
+
 	}
 
 }

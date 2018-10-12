@@ -7,8 +7,7 @@ public class Uppgift1 {
 
 		int res = Math.floorDiv(20, 9);
 		System.out.println("Result: " + res);
-		
-		
+
 	}
 
 }
