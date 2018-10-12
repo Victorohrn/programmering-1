@@ -8,10 +8,11 @@ public class Uppgift3 {
 		// TODO Auto-generated method stub
 
 		Scanner scanner = new Scanner(System.in);
-		while (true){System.out.print("Enter a number: ");
-		int number1 = scanner.nextInt();
-		for(int i = 1; i <= 10; i++) {
-			System.out.println("" + number1 + " x " + i + " = " + number1 * i);
+		while (true) {
+			System.out.print("Enter a number: ");
+			int number1 = scanner.nextInt();
+			for (int i = 1; i <= 10; i++) {
+				System.out.println("" + number1 + " x " + i + " = " + number1 * i);
 			}
 			break;
 		}

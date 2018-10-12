@@ -8,22 +8,20 @@ public class Uppgift2 {
 		// TODO Auto-generated method stub
 
 		Scanner scanner = new Scanner(System.in);
-		while (true){System.out.print("Enter a firstnumber: ");
-		int number1 = scanner.nextInt();
+		while (true) {
+			System.out.print("Enter a firstnumber: ");
+			int number1 = scanner.nextInt();
 			System.out.print("Enter a secondnumber: ");
-		int number2 = scanner.nextInt();
+			int number2 = scanner.nextInt();
 			System.out.println("" + number1 + " + " + number2 + " = " + number1 + number2);
 			System.out.println("" + number1 + " - " + number2 + " = " + (number1 - number2));
 			System.out.println("" + number1 + " x " + number2 + " = " + number1 * number2);
 			System.out.println("" + number1 + " / " + number2 + " = " + number1 / number2);
 			System.out.println("" + number1 + " mod " + number2 + " = " + number1 % number2);
-				break;
-			
+			break;
+
 		}
-		
-		
-		
-		
+
 	}
 
 }
