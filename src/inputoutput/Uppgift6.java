@@ -9,19 +9,20 @@ public class Uppgift6 {
 
 		Scanner scanner = new Scanner(System.in);
 		while (true) {
-			System.out.println("Enter the height of the rektangle: ");
+			System.out.print("Enter the height of the rektangle: ");
 			double h = scanner.nextDouble();
-			System.out.println("Enter the width of the rektangle: ");
+			System.out.print("Enter the width of the rektangle: ");
 			double w = scanner.nextDouble();
-			System.out.println("Area is: " + h * w);
-			System.out.println("Perimeter is: " " " + (h + w) + "* 2 " 2 * (h + w));
+			if (h == w) {
+				System.out.println("Thats not a rektangle");
+				break;
+			} else {
+				System.out.println("Area is: " + "" + h + " * " + w + " = " + h * w);
+				System.out.println("Perimeter is: " + " 2 * " + " ( " + h + " + " + w + " ) " + " = " + 2 * (h + w));
+
+			}
 		}
-	
-		
-		
-		
-		
-		
+
 	}
 
 }
