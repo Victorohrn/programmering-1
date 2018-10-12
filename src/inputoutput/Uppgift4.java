@@ -10,7 +10,7 @@ public class Uppgift4 {
 			System.out.print("Enter radius of a cirkle: ");
 			double num1 = scanner.nextDouble();
 			System.out.println("Perimeter is: " + 2 * Math.PI * num1);
-			System.out.println("Perimeter is: " + Math.PI * num1 * num1);
+			System.out.println("Area is: " + Math.PI * (num1 * num1));
 
 		}
 	}
