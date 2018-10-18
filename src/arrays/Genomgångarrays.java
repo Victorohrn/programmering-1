@@ -43,9 +43,9 @@ public class Genomgångarrays {
 		for (int i = 0; i < arrayList.size(); i++) {
 			System.out.println("Loop Array List(index: " + i + ", Value " + arrayList.get(i) + ")");
 		}
-			for (int i = 0; i < intArray.length; i++) {
-				System.out.println("Loop Array(index: " + i + ", Value " + intArray[i] + ")");
-			}
+		for (int i = 0; i < intArray.length; i++) {
+			System.out.println("Loop Array(index: " + i + ", Value " + intArray[i] + ")");
 		}
+		System.out.println(arrayList.toString());
 	}
-
+}

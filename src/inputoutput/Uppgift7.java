@@ -9,7 +9,7 @@ public class Uppgift7 {
 
 		Scanner scanner = new Scanner(System.in);
 		while(true) {
-			System.out.println();
+			System.out.println("Enter a varible: ");
 			
 		}
 		
