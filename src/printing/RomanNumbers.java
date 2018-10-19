@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class RomanNumbers {
 
 	public static void main(String[] args) {
-		char[] romNumbers = { 'I', 'IV', 'V', 'L', 'C', 'D', 'M' };
+		char[] romNumbers = { 'I', 'V', 'L', 'C', 'D', 'M' };
 		int[] valRomNumbers = { 1, 5, 10, 50, 100, 500, 1000 };
 
 		Scanner scanner = new Scanner(System.in);
