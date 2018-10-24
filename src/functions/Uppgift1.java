@@ -6,7 +6,6 @@ public class Uppgift1 {
 
 	public static void main(String[] args) {
 		smallestAmongThree(input());
-		largestAmongThree(input());
 	}
 
 	public static int[] input() {
@@ -31,21 +30,6 @@ public class Uppgift1 {
 		}
 		if (tempVar < inputs[2]) {
 			System.out.println(tempVar);
-		} else {
-			System.out.println(inputs[2]);
-		}
-	}
-
-	public static void largestAmongThree(int[] inputs) {
-		int tempVar1;
-		System.out.print("Largest number is: ");
-		if (inputs[0] > inputs[1]) {
-			tempVar1 = inputs[0];
-		} else {
-			tempVar1 = inputs[1];
-		}
-		if (tempVar1 > inputs[2]) {
-			System.out.println(tempVar1);
 		} else {
 			System.out.println(inputs[2]);
 		}
