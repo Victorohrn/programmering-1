@@ -19,7 +19,7 @@ public class MiddleCharacterOfaString {
 	public static void middleCharacterOfaString(String inputs) {
 
 		if (inputs.length() % 2 == 0) {
-			System.out.println("Even");
+			System.out.println("The middle characters of the string is: ");
 			System.out.println(inputs.charAt(inputs.length() / 2 - 1) + "" + inputs.charAt(inputs.length() / 2));
 		} else {
 			System.out.print("The middle character of a string is: ");
