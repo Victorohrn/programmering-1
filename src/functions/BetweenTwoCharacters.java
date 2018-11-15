@@ -23,6 +23,7 @@ public class BetweenTwoCharacters {
 				"b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v",
 				"w", "x", "y", "z" };
 		String input[] = { inputs1, inputs2 };
+		System.out.println("All characters between " + inputs1 + " and " + inputs2);
 		for (int i = 0; i < characters.length; i++) {
 			if (input[0].equals(characters[i])) {
 				for (int j = i; j < characters.length; j++) {
