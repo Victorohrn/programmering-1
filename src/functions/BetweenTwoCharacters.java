@@ -25,11 +25,12 @@ public class BetweenTwoCharacters {
 		String input[] = { inputs1, inputs2 };
 		for (int i = 0; i < characters.length; i++) {
 			if (input[0].equals(characters[i])) {
-				for (int j = i; j< characters.length; j++){
-					System.out.println(characters[j+1]);
+				for (int j = i; j < characters.length; j++) {
+					System.out.print(characters[j + 1]);
 					if (input[1].equals(characters[j + 2])) {
-						break;}
-			}
+						break;
+					}
+				}
 			}
 		}
 	}
