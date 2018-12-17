@@ -7,8 +7,15 @@ import java.awt.Toolkit;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-
+/**
+ * Shows how Swing works
+ * @author victor.ohrn
+ *
+ */
 public class Main extends JFrame {
+	/**
+	 * Representing text in the program 
+	 */
 	private JLabel text;
 	private Toolkit toolkit = Toolkit.getDefaultToolkit();
 
@@ -30,7 +37,10 @@ public class Main extends JFrame {
 		contentPane.setBackground(Color.BLACK);
 		addButtons(contentPane);
 	}
-
+	/**
+	 * 
+	 * @param contentPane
+	 */
 	public void addButtons(Container contentPane) {
 		Color redColor = new Color(150, 15, 15);
 		// Makes closeButton
@@ -56,7 +66,9 @@ public class Main extends JFrame {
 		changeTextButton.addActionListener(event -> changeTextButtonPressed());
 		contentPane.add(changeTextButton);
 	}
-
+	/**
+	 * 
+	 */
 	public void changeTextButtonPressed() {
 		// Returns text
 		// String currentText = text.getText();
@@ -66,11 +78,16 @@ public class Main extends JFrame {
 		else
 			text.setText("Hello World");
 	}
-
+	/**
+	 * 
+	 */
 	public void closeButtonPressed() {
 		System.exit(0);
 	}
-
+/**
+ * 
+ * @param args
+ */
 	public static void main(String[] args) {
 		Main frame = new Main();
 		// frame.addButtons(contentPane);
