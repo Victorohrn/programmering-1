@@ -160,6 +160,7 @@ public class Game1 extends JFrame {
 	}*/
 	public static void main(String[] args) {
 		new Game1();
+		
 	}  
 
 }
