@@ -134,12 +134,13 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 	/**
 	 * point system
 	 * 
-	 * @return
 	 */
 	public void point() {
-		
+
 		if (pos == imageX && pos == lastX) {
 			point++;
+			points.setText("Points: " + point);
+			repaint();
 		}
 
 	}
@@ -176,10 +177,12 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 	 * moves the imageS 20px to the left
 	 */
 	public void leftMove() {
+
 		pos -= 20;
-		if (pos <= -150) {
-			pos = -150;
+		if (pos <= -200) {
+			pos = 1600;
 		}
+
 		repaint();
 	}
 
@@ -188,8 +191,8 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 	 */
 	public void rightMove() {
 		pos += 20;
-		if (pos >= 1500) {
-			pos = 1500;
+		if (pos >= 1600) {
+			pos = -200;
 		}
 		repaint();
 	}
@@ -230,7 +233,6 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 	public void keyPressed(KeyEvent e) {
 		// TODO Auto-generated method stub
 		if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
-
 		}
 		if (e.getKeyCode() == KeyEvent.VK_LEFT) {
 
